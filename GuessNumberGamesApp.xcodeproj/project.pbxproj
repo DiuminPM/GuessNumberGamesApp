@@ -11,6 +11,8 @@
 		1F67CBC825DBE14D0065C53F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F67CBC725DBE14D0065C53F /* ContentView.swift */; };
 		1F67CBCA25DBE1510065C53F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F67CBC925DBE1510065C53F /* Assets.xcassets */; };
 		1F67CBCD25DBE1510065C53F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F67CBCC25DBE1510065C53F /* Preview Assets.xcassets */; };
+		1F67CBD625DBE5D70065C53F /* UISlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F67CBD525DBE5D70065C53F /* UISlider.swift */; };
+		1F67CBDA25DBEAA80065C53F /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F67CBD925DBEAA80065C53F /* SliderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		1F67CBC925DBE1510065C53F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F67CBCC25DBE1510065C53F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1F67CBCE25DBE1510065C53F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F67CBD525DBE5D70065C53F /* UISlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISlider.swift; sourceTree = "<group>"; };
+		1F67CBD925DBEAA80065C53F /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +58,10 @@
 			children = (
 				1F67CBC525DBE14D0065C53F /* GuessNumberGamesAppApp.swift */,
 				1F67CBC725DBE14D0065C53F /* ContentView.swift */,
-				1F67CBC925DBE1510065C53F /* Assets.xcassets */,
+				1F67CBD925DBEAA80065C53F /* SliderView.swift */,
+				1F67CBD525DBE5D70065C53F /* UISlider.swift */,
 				1F67CBCE25DBE1510065C53F /* Info.plist */,
+				1F67CBC925DBE1510065C53F /* Assets.xcassets */,
 				1F67CBCB25DBE1510065C53F /* Preview Content */,
 			);
 			path = GuessNumberGamesApp;
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F67CBD625DBE5D70065C53F /* UISlider.swift in Sources */,
+				1F67CBDA25DBEAA80065C53F /* SliderView.swift in Sources */,
 				1F67CBC825DBE14D0065C53F /* ContentView.swift in Sources */,
 				1F67CBC625DBE14D0065C53F /* GuessNumberGamesAppApp.swift in Sources */,
 			);
